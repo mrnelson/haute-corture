@@ -1,0 +1,42 @@
+/*color palette
+primary color: #EBD0C4
+secondary color: #3E3947
+tertiary color: #D68684
+
+heading: font-family: 'Abril Fatface', cursive;
+
+body copy:font-family: 'PT Sans Narrow', sans-serif;
+*/
+
+/*global applies to the entire site
+for example background pattern*/
+{
+background: url('../img/paper_fibers.png');
+}
+
+/*typography*/
+
+h1, h2 {
+    font-family: 'Abril Fatface', cursive;
+    color: #D68684;
+    letter-spacing: 4px;
+}
+
+p, blockquote {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #D68684;
+    line-height: 1.5em;
+    
+}
+
+blockquoe {
+    font-size: 3em;
+    text-align: center;
+    padding: 1em;
+}
+
+/*images*/
+
+section img {
+    width: 60%
+}
